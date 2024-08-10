@@ -527,6 +527,7 @@
 .trip__card--details::-webkit-scrollbar {
     margin: 0;
     background-color: transparent;
+    width: 0px;
 }
 
 .trip__plans img {
@@ -594,8 +595,8 @@
 }
 
 .trip__plan img:hover{
-    transform: scale(.9);
-    transition: 2s;
+    transform: scale(.98);
+    transition: 1s;
     box-shadow: 2px 5px 3px 2px;
 }
 
