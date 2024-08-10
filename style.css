@@ -519,6 +519,7 @@
 }
 .trip__card--details::-webkit-scrollbar{
     margin: 0;
+    background-color: transparent;
 }
 .trip__plans img{
     border-radius: 20px;
@@ -736,6 +737,7 @@
 }
 .more__explre--cards::-webkit-scrollbar{
     margin: 0;
+    background-color: transparent;
 }
 
 
@@ -779,6 +781,7 @@
 .trip__card--others::-webkit-scrollbar{
     margin: 0;
     width: 0;
+    background-color: transparent;
 }
 
 @media screen and (max-width:800px){
