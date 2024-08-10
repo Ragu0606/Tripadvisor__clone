@@ -154,7 +154,8 @@
 .searchba button:hover {
     background-color: rgba(51, 224, 161, 0.555);
 }
-.navigation__for--under{
+
+.navigation__for--under {
     position: sticky;
     z-index: 1;
 }
@@ -191,7 +192,7 @@
     }
 
     .navigation {
-        position:sticky;
+        position: sticky;
         left: 10px;
     }
 }
@@ -212,12 +213,12 @@
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
-    .searchba input{
+    .searchba input {
         width: 50px;
     }
-  
+
 }
 
 /* ------------------------------------------------- */
@@ -467,9 +468,11 @@
         left: 5%;
         bottom: 9%;
     }
+
     .trip__content p {
         font-size: 85%;
     }
+
     .trip__content h1 {
         font-size: 100%;
     }
@@ -509,67 +512,75 @@
     display: flex;
     align-items: center;
     overflow-x: auto;
-    border:white 1px solid; 
+    border: white 1px solid;
     margin-left: 10%;
     margin-right: 10%;
 
 }
 
-.trip__plans{
+.trip__plans {
     margin-left: 10px;
 }
-.trip__card--details::-webkit-scrollbar{
+
+.trip__card--details::-webkit-scrollbar {
     margin: 0;
     background-color: transparent;
 }
-.trip__plans img{
+
+.trip__plans img {
     border-radius: 20px;
     width: 300px;
 }
-.trip__plans img:hover{
+
+.trip__plans img:hover {
     cursor: pointer;
     opacity: 0.8;
     transition: 1s;
     transform: scale(1.03);
 }
+
 .trip__plans p {
-    text-align: center; 
+    text-align: center;
     position: relative;
     font-weight: 900;
     font-size: 1.5rem;
     bottom: 40px;
-    color: white; 
+    color: white;
 }
 
 @media screen and (max-width:800px) {
-    .trip__plans img{
+    .trip__plans img {
         border-radius: 20px;
         width: 300px;
     }
+
     .trip__plans p {
-        text-align: center; 
+        text-align: center;
         position: relative;
         font-weight: 900;
-        font-size:25px;
+        font-size: 25px;
         bottom: 40px;
-        color: white; 
+        color: white;
     }
-    .trip__card--details{
+
+    .trip__card--details {
         margin: 0;
     }
 }
+
 @media screen and (max-width:600px) {
-    .trip__plans img{
+    .trip__plans img {
         border-radius: 20px;
         width: 200px;
     }
+
     .trip__plans p {
-        text-align: center; 
+        text-align: center;
         position: relative;
         font-weight: 900;
-        font-size:14px;
+        font-size: 14px;
         bottom: 40px;
-        color: white; 
+        color: white;
     }
 }
 
@@ -578,10 +589,12 @@
 .trip__plan {
     margin: 10px;
 }
+
 .trip__plan img {
     border-radius: 20px;
     width: 300px;
 }
+
 .trip__plan p {
     font-size: 100%;
     height: 40%;
@@ -589,6 +602,7 @@
     font-weight: 700;
 
 }
+
 .trip__plan button {
     position: absolute;
     bottom: 85%;
@@ -601,6 +615,7 @@
     cursor: pointer;
 
 }
+
 .trip__plan button:hover {
     background-color: rgb(255, 0, 0);
 }
@@ -609,13 +624,14 @@
 
 
 @media screen and (max-width:850px) {
-    .trip__plan img{
+    .trip__plan img {
         border-radius: 20px;
         width: 250px;
     }
 }
+
 @media screen and (max-width:600px) {
- 
+
     .trip__plan p {
         font-size: 12px;
     }
@@ -725,7 +741,7 @@
     margin-right: 10%;
     cursor: pointer;
     overflow-x: auto;
-    border: 1px solid white; 
+    border: 1px solid white;
 }
 
 .more__explore--option {
@@ -736,7 +752,8 @@
     border-radius: 20px;
     width: 300px;
 }
-.more__explre--cards::-webkit-scrollbar{
+
+.more__explre--cards::-webkit-scrollbar {
     margin: 0;
     background-color: transparent;
 }
@@ -748,7 +765,7 @@
     display: flex;
     align-items: center;
     overflow-x: auto;
-    border:1px solid white; 
+    border: 1px solid white;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -772,32 +789,34 @@
 }
 
 .trip__plans--others p {
-    text-align: center; 
+    text-align: center;
     position: relative;
     font-weight: 900;
     font-size: 1.5rem;
     bottom: 40px;
-    color: white; 
+    color: white;
 }
 
-.trip__card--others::-webkit-scrollbar{
+.trip__card--others::-webkit-scrollbar {
     margin: 0;
     width: 0;
     background-color: transparent;
 }
 
-@media screen and (max-width:800px){
-    .trip__card--others{
+@media screen and (max-width:800px) {
+    .trip__card--others {
         margin: 0;
     }
 }
+
 /* ------------------------------------------------- */
 
-.about__trip{
+.about__trip {
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 4%;
 }
+
 .trip__wonder {
 
     display: flex;
@@ -811,8 +830,7 @@
     width: 60%;
     height: 90%;
     position: relative;
-    top:5%
-
+    top: 5%
 }
 
 .trip__wonder--content {
@@ -831,7 +849,7 @@
     left: 20%;
 }
 
-.trip__wonder--content-logo img{
+.trip__wonder--content-logo img {
     width: 10%;
 }
 
@@ -854,11 +872,12 @@
 
 @media screen and (max-width:1200px) {
 
-    .about__trip{
+    .about__trip {
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 5%
     }
+
     .trip__wonder {
         margin-top: 10%;
         display: flex;
@@ -918,31 +937,32 @@
     }
 }
 
-@media screen and (max-width:600px){
-    .trip__wonder--content-logo{
+@media screen and (max-width:600px) {
+    .trip__wonder--content-logo {
         left: 0%;
     }
 }
+
 /* ------------------------------------------------------------ */
 
-.trip__card--otherscontent{
-    background-color:rgb(245, 236, 232) ;
+.trip__card--otherscontent {
+    background-color: rgb(245, 236, 232);
     padding: 20px;
     text-wrap: nowrap;
     height: fit-content;
-    position:relative;
-    bottom:25px;
+    position: relative;
+    bottom: 25px;
 }
 
-.trip__card--otherscontent p{
-    font-size:20px;
+.trip__card--otherscontent p {
+    font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
 
 }
 
-@media screen and (max-width:600px){
-    .trip__card--others{
+@media screen and (max-width:600px) {
+    .trip__card--others {
         margin: 0;
         padding: 0;
     }
@@ -955,10 +975,10 @@
     margin-right: 10%;
     margin-bottom: 2%;
     position: relative;
- 
     height: 400px;
     background: url('your-image.jpg') no-repeat center center/cover;
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -967,6 +987,7 @@
     height: 100%;
     background: rgb(255, 247, 225);
 }
+
 .text {
     position: absolute;
     top: 60%;
@@ -974,13 +995,15 @@
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
     text-align: center;
+    z-index: 1;
 }
-.text h1{
+
+.text h1 {
     font-size: 29px;
     font-weight: 900;
 }
 
-.text button{
+.text button {
     margin-top: 10px;
     background-color: black;
     color: white;
@@ -990,16 +1013,19 @@
     position: absolute;
     left: 40%;
     top: 150%;
+
 }
 
-.text button:hover{
+.text button:hover {
     background-color: rgba(0, 0, 0, 0.758);
 }
+
 .circle {
     position: absolute;
     border-radius: 50%;
     background: rgba(255, 255, 0, 0.5);
 }
+
 .circle1 {
     width: 100px;
     height: 100px;
@@ -1007,10 +1033,199 @@
     left: 10%;
     background-color: rgb(242, 178, 3);
 }
+
 .circle2 {
     width: 150px;
     height: 150px;
     top: 50%;
     left: 73%;
     background-color: rgb(52, 224, 161);
+    z-index: 1;
+}
+
+.overlay__image img {
+
+    width: 100px;
+    position: absolute;
+    bottom: 95%;
+    left: 60%;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:600px) {
+    .circle1 {
+        width: 100px;
+        height: 100px;
+        top: 20%;
+        left: 2%;
+        background-color: rgb(242, 178, 3);
+    }
+
+    .circle2 {
+        width: 150px;
+        height: 150px;
+        top: 5%;
+        left: 10%;
+        background-color: rgb(52, 224, 161);
+    }
+
+
+    .text button {
+        position: absolute;
+        left: 60%;
+        top: 100%;
+    }
+    .overlay__image img{
+
+        display: none;
+    }
+
+
+
+}
+/* ------------------------------------------- */
+
+
+
+.trip__footer--container{
+    display: flex;
+    padding: 20px;
+    height: 650px;
+    background-color: rgb(250, 241, 237);
+    position: relative;
+}
+.trip__footer--content{
+    display: flex;
+    margin-left: 5%;
+    gap: 3%;
+}
+
+.trip__footer--content ul{
+
+    list-style-type: none;
+    font-size: medium;
+}
+.trip__footer--content1{
+    margin-left: 20px;
+}
+.trip__footer--content1 ul{
+    
+    list-style-type: none;
+    font-size: medium;
+}
+.trip__footer--select{
+    position: absolute;
+    left: 5%;
+    top:40%;
+    border: none;
+} 
+.trip__footer--sele1 select{
+    border: none;
+    padding: 10px;
+    width: 500%;
+    border-radius: 30px;
+
+}
+.trip__footer--sele2 select{
+    border: none;
+    padding: 10px;
+    width: 500%;
+    border-radius: 30px;
+
+}
+.trip__footer--sele2{
+    margin-top: 10px;
+}
+
+.trip__footer--triplogo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+}
+.trip__footer--triplogo img{
+    width: 30px;
+    height: 30px;
+}
+.trip__footer--triplogo p{
+    text-wrap: nowrap;
+}
+.trip__footer--triplogo1 p{
+    text-wrap: wrap;
+}
+.about__trips{
+    font-size: medium;
+    position: absolute;left: 70%;
+}
+
+.social_meadia{
+    font-size: x-large;
+    position: absolute;
+    top: 75%;
+    left: 85%;
+}
+
+.trip_shrink ul{
+    font-size: medium;
+    list-style-type: none;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+.trip_shrink--list li{
+    line-height: 20px;
+}
+
+@media screen and (max-width:800px){
+    .about__trips{
+        font-size: small;
+        position: absolute;
+        left: 5%;
+        top: 80%;
+    }
+    .social_meadia{
+        font-size: x-large;
+        position: absolute;
+        top: 80%;
+        left: 65%;
+    }
+
+    .trip__footer--select{
+        position: absolute;
+        left: 5%;
+        top:34%;
+        border: none;
+        align-items: center;
+        justify-content: center;
+     
+    } 
+    .trip__footer--content1{
+        display: none;
+    }
+    .trip__footer--sele1 select{
+        width: 300px;
+    }
+    .trip__footer--sele2 select{
+        width: 300px;  
+    }
+    .trip__footer--content{
+        display: none;
+    }
+    .trip__footer--triplogo{
+        display: flex;
+        position: absolute;
+        top: 55%;
+    }
+    .about__trips{
+        font-size: small;
+        position: absolute;
+        left:8%;
+        top: 90%;
+    }
+    .trip__footer--container{
+        height: 400px;
+    }
+    
 }
