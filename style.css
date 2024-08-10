@@ -509,7 +509,7 @@
     display: flex;
     align-items: center;
     overflow-x: auto;
-    border:white; 
+    border:white 1px solid; 
     margin-left: 10%;
     margin-right: 10%;
 
@@ -721,12 +721,11 @@
 .more__explre--cards {
     display: flex;
     align-items: center;
-  
     margin-left: 10%;
     margin-right: 10%;
     cursor: pointer;
     overflow-x: auto;
-    border: none; 
+    border: 1px solid white; 
 }
 
 .more__explore--option {
@@ -749,7 +748,7 @@
     display: flex;
     align-items: center;
     overflow-x: auto;
-    border: none; 
+    border:1px solid white; 
     margin-left: 10%;
     margin-right: 10%;
 }
