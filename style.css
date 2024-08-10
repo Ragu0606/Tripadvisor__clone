@@ -515,6 +515,7 @@
     border: white 1px solid;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 10%;
 
 }
 
@@ -551,7 +552,7 @@
 @media screen and (max-width:800px) {
     .trip__plans img {
         border-radius: 20px;
-        width: 300px;
+        width: 350px;
     }
 
     .trip__plans p {
@@ -565,6 +566,7 @@
 
     .trip__card--details {
         margin: 0;
+        
     }
 }
 
@@ -718,8 +720,7 @@
 
 @media screen and (max-width:800px) {
     .trip__card--one {
-        margin-left: 4%;
-        margin-right: 4%;
+        display: none;
     }
 
 }
@@ -1098,33 +1099,52 @@
 .trip__footer--content{
     display: flex;
     margin-left: 5%;
-    gap: 3%;
+    gap: 7%;
 }
 
 .trip__footer--content ul{
 
     list-style-type: none;
     font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.trip__footer--list1 li:hover{
+ text-decoration: underline;
+ font-weight: 700;
+}
+.trip__footer--list2 li:hover{
+ text-decoration: underline;
 }
 .trip__footer--content1{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .trip__footer--content1 ul{
     
     list-style-type: none;
     font-size: medium;
+    font-weight: 600;
+}
+.trip__footer--list3 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
 }
 .trip__footer--select{
     position: absolute;
     left: 5%;
     top:40%;
     border: none;
+   
 } 
 .trip__footer--sele1 select{
     border: none;
     padding: 10px;
     width: 500%;
     border-radius: 30px;
+    cursor: pointer;
 
 }
 .trip__footer--sele2 select{
@@ -1132,6 +1152,7 @@
     padding: 10px;
     width: 500%;
     border-radius: 30px;
+    cursor: pointer;
 
 }
 .trip__footer--sele2{
@@ -1167,6 +1188,11 @@
     top: 75%;
     left: 85%;
 }
+.social_meadia i:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.5);
+}
 
 .trip_shrink ul{
     font-size: medium;
@@ -1184,6 +1210,10 @@
     display: flex;
     gap: 10px;
     font-weight: 700;
+    cursor: pointer;
+}
+.trip__tearms-list li:hover{
+    font-weight: 800;
     cursor: pointer;
 }
 
