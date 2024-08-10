@@ -525,8 +525,7 @@
 }
 
 .trip__card--details::-webkit-scrollbar {
-    margin: 0;
-    background-color: transparent;
+ 
     width: 0px;
 }
 
@@ -763,8 +762,7 @@
 }
 
 .more__explre--cards::-webkit-scrollbar {
-    margin: 0;
-    background-color: transparent;
+   width: 0px;
 }
 
 
@@ -808,8 +806,8 @@
 
 .trip__card--others::-webkit-scrollbar {
     margin: 0;
-    width: 0;
-    background-color: transparent;
+    width: 0px;
+  
 }
 
 @media screen and (max-width:800px) {
