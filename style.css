@@ -1177,6 +1177,15 @@
 .trip_shrink--list li{
     line-height: 20px;
 }
+.trip__tearms-list{
+    list-style-type: none;
+    font-size: medium;
+    text-decoration: underline;
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
 
 @media screen and (max-width:800px){
     .about__trips{
@@ -1205,10 +1214,10 @@
         display: none;
     }
     .trip__footer--sele1 select{
-        width: 300px;
+        width: 250px;
     }
     .trip__footer--sele2 select{
-        width: 300px;  
+        width: 250px;  
     }
     .trip__footer--content{
         display: none;
@@ -1226,6 +1235,25 @@
     }
     .trip__footer--container{
         height: 400px;
+    }
+    .trip__tearms{
+        position: absolute;
+        left: 65%;
+        bottom: 160%;
+    }
+    .trip__tearms-list{
+        list-style-type: none;
+        font-size:15px;
+        text-decoration: underline;
+        display: block;
+        gap: 10px;
+        font-weight: 700;
+    }
+    .trip__tearms-list li:nth-child(6){
+        display: none;
+    }
+    .trip__tearms-list li:nth-child(4){
+        display: none;
     }
     
 }
