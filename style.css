@@ -1229,3 +1229,13 @@
     }
     
 }
+@media (min-width: 800px) {
+    .trip_shrink {
+      display:none; /* Hide the div */
+    }
+  }
+@media (max-width: 800px) {
+    .trip_shrink {
+      display:block; /* Hide the div */
+    }
+  }
