@@ -13,7 +13,7 @@
     margin-right: 10%;
     margin-left: 10%;
     position: sticky;
-    top: 0;
+    top: 10px;
     z-index: 1000;
     background-color: white;
 }
@@ -515,7 +515,7 @@
     border: white 1px solid;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+
 
 }
 
