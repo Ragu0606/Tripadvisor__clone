@@ -13,9 +13,8 @@
     margin-right: 10%;
     margin-left: 10%;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
     background-color: white;
 }
 
@@ -172,11 +171,14 @@
     .navi {
         margin-left: 10px;
         margin-right: 10px;
-        position: sticky;
+       
     }
 
     .navbar {
         justify-content: space-evenly;
+        position:sticky;
+        z-index: 1;
+        top: 0;
     }
 
     .navbar__s2 {
