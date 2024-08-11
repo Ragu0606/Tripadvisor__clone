@@ -522,6 +522,9 @@
 
 }
 
+.trip__card--details:focus{
+    outline: none;
+}
 .trip__plans {
     margin-left: 10px;
 }
@@ -754,6 +757,9 @@
     border: 1px solid white;
 }
 
+.more__explre--cards:focus{
+    outline: none;
+}
 .more__explore--option {
     margin: 10px;
 }
@@ -778,7 +784,9 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-
+.trip__card--others:focus{
+    outline: none;
+}
 
 .trip__plans--others {
     margin: 10px;
